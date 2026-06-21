@@ -1,6 +1,4 @@
-[![GitHub stars](https://img.shields.io/github/stars/TuUsuario/Automatas-JFLAP-Lab1.svg?style=social&label=Star)](https://github.com/TuUsuario/Automatas-JFLAP-Lab1)
-[![GitHub forks](https://img.shields.io/github/forks/TuUsuario/Automatas-JFLAP-Lab1.svg?style=social&label=Fork)](https://github.com/TuUsuario/Automatas-JFLAP-Lab1/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/TuUsuario/Automatas-JFLAP-Lab1.svg?style=social&label=Watch)](https://github.com/TuUsuario/Automatas-JFLAP-Lab1)
+<div align="center">
 
 # 🤖 Autómatas Finitos y Lenguajes Regulares con JFLAP
 
@@ -10,6 +8,10 @@
 [![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
 
 > Laboratorio académico sobre teoría de autómatas, expresiones regulares y gramáticas formales utilizando JFLAP como herramienta de simulación y análisis.
+
+</div>
+
+---
 
 ---
 
@@ -403,3 +405,12 @@ Si tienes preguntas, sugerencias o comentarios sobre este proyecto, no dudes en 
 [![UNIR](https://img.shields.io/badge/UNIR-Colombia-yellow.svg)](https://www.unir.net/)
 
 </div>
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
