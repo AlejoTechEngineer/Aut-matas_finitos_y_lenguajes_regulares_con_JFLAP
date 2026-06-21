@@ -37,6 +37,20 @@
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[JFLAP 7.1 - Simulador] --> B[Automatas Finitos Deterministas AFD]
+    A --> C[Automatas Finitos No Deterministas AFN]
+    A --> D[Expresiones Regulares]
+    B --> E[Reconocimiento de Lenguajes Regulares]
+    C --> F[Conversion AFN a AFD - Algoritmo subconjuntos]
+    D --> G[Conversion ER a AFN - Construccion de Thompson]
+    E & F & G --> H[Minimizacion de AFD - Algoritmo de Hopcroft]
+    H --> I[Informe PDF - Analisis de Equivalencia]
+```
+
 ## 🎯 Descripción
 
 Este proyecto corresponde al **Laboratorio #1** de la asignatura de **Fundamentos de la Computación**, donde se explora la relación entre diferentes formalismos para describir lenguajes regulares:
@@ -407,20 +421,6 @@ Si tienes preguntas, sugerencias o comentarios sobre este proyecto, no dudes en 
 </div>
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[JFLAP 7.1 - Simulador] --> B[Automatas Finitos Deterministas AFD]
-    A --> C[Automatas Finitos No Deterministas AFN]
-    A --> D[Expresiones Regulares]
-    B --> E[Reconocimiento de Lenguajes Regulares]
-    C --> F[Conversion AFN a AFD - Algoritmo subconjuntos]
-    D --> G[Conversion ER a AFN - Construccion de Thompson]
-    E & F & G --> H[Minimizacion de AFD - Algoritmo de Hopcroft]
-    H --> I[Informe PDF - Analisis de Equivalencia]
-```
 
 ## Autor
 
