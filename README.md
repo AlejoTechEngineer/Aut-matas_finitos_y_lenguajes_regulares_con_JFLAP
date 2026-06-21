@@ -18,6 +18,7 @@
 ## 📋 Tabla de Contenidos
 
 - [Descripción](#-descripción)
+- [Arquitectura](#arquitectura)
 - [Objetivos](#-objetivos)
 - [Requisitos Previos](#-requisitos-previos)
 - [Instalación](#-instalación)
@@ -37,6 +38,18 @@
 
 ---
 
+## 🎯 Descripción
+
+Este proyecto corresponde al **Laboratorio #1** de la asignatura de **Fundamentos de la Computación**, donde se explora la relación entre diferentes formalismos para describir lenguajes regulares:
+
+- **Autómatas Finitos Deterministas (AFD)**
+- **Expresiones Regulares**
+- **Gramáticas Regulares (Tipo 3)**
+
+A través de la herramienta educativa **JFLAP (Java Formal Languages and Automata Package)**, se construye, analiza y valida un autómata finito que reconoce un lenguaje específico sobre el alfabeto **Σ = {a, b, c}**.
+
+---
+
 ## Arquitectura
 
 ```mermaid
@@ -50,18 +63,6 @@ flowchart TD
     E & F & G --> H[Minimizacion de AFD - Algoritmo de Hopcroft]
     H --> I[Informe PDF - Analisis de Equivalencia]
 ```
-
-## 🎯 Descripción
-
-Este proyecto corresponde al **Laboratorio #1** de la asignatura de **Fundamentos de la Computación**, donde se explora la relación entre diferentes formalismos para describir lenguajes regulares:
-
-- **Autómatas Finitos Deterministas (AFD)**
-- **Expresiones Regulares**
-- **Gramáticas Regulares (Tipo 3)**
-
-A través de la herramienta educativa **JFLAP (Java Formal Languages and Automata Package)**, se construye, analiza y valida un autómata finito que reconoce un lenguaje específico sobre el alfabeto **Σ = {a, b, c}**.
-
----
 
 ## 🎓 Objetivos
 
